@@ -1,0 +1,478 @@
+﻿.container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+    nav ul li {
+        display: inline;
+        margin-left: 30px;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+            nav ul li a:hover {
+                color: darkgray;
+            }
+
+#logo {
+    color:white;
+  text-align:center;
+   
+}
+
+section.box.box-1a{
+    background-color:darkslategray;
+    height: 40px;
+    grid-column:1;
+}
+
+.box-1a p{
+    color:white;
+    text-align:center;
+    font-size:large;
+    margin:9px;
+}
+
+section.box.box-1 {
+    height: 40px;
+    background-color: darkslategray;
+    grid-column: 2 /span 8;
+}
+
+section.box.box-2 {
+    height: 250px;
+    background-image: url('images/tuscany-villas-sant-anna.jpg');
+    background-size: 1000px 250px;
+    grid-column: 1 /span 7;
+}
+
+section.box.box-3 {
+    height: 250px;
+    background-image: url('images/villamap.jpg');
+    background-size: 300px 250px;
+    grid-column: 8 /span 2;
+}
+
+section.box.box-4 {
+    height: 80px;
+    background-color: darkslategray;
+    grid-column: 1 /span 9;
+}
+
+section.box.box-5 {
+    height: 300px;
+    grid-column: 1 /span 5;
+}
+
+section.box.box-6 {
+    height: 300px;
+    grid-column: 7 /span 4;
+}
+
+section.box.box-7 {
+    height: 300px;
+    grid-column: 1 /span 4;
+    background-color: darkslategray;
+}
+
+section.box.box-8 {
+    height: 300px;
+    grid-column: 5 /span 6;
+    background-color: darkslategray;
+    color: white;
+}
+
+section.box.box-9 {
+    height: 300px;
+    grid-column: 1 /span 5;
+}
+
+section.box.box-10 {
+    height: 300px;
+    grid-column: 7 /span 4;
+}
+
+section.box.box-11 {
+    background-color: darkslategray;
+    height: 80px;
+    grid-column: 1 /span 9;
+}
+
+section.box.box-12 {
+    margin-left: 50px;
+    margin-top: 50px;
+    grid-column: 1 /span 3;
+    height: 250px;
+    background-image: url('images/villa2.jpg');
+    background-size: 400px 250px;
+}
+
+section.box.box-13 {
+    margin-top: 50px;
+    grid-column: 4 /span 3;
+    height: 250px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section.box.box-14 {
+    margin-top: 50px;
+    margin-right: 50px;
+    grid-column: 7 /span 3;
+    height: 250px;
+    background-image: url('images/villa3.jpg');
+    background-size: 400px 250px;
+}
+
+section.box.box-15 {
+    margin-left: 50px;
+    grid-column: 1 /span 3;
+    height: 250px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+section.box.box-16 {
+    grid-column: 4 /span 3;
+    height: 250px;
+    background-image: url('images/villa1.jpg');
+    background-size: 400px 250px;
+}
+
+section.box.box-17 {
+    margin-right: 50px;
+    grid-column: 7 /span 3;
+    height: 250px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+section.box.box-18 {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    grid-column: 1 /span 3;
+    height: 250px;
+    background-image: url('images/villachair.jpg');
+    background-size: 400px 250px;
+}
+
+section.box.box-19 {
+    margin-bottom: 50px;
+    grid-column: 4 /span 3;
+    height: 250px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section.box.box-20 {
+    margin-bottom: 50px;
+    margin-right: 50px;
+    grid-column: 7 /span 3;
+    height: 250px;
+    background-image: url('images/villagtable.jpg');
+    background-size: 400px 250px;
+}
+
+section.box.box-21 {
+    height: 80px;
+    background-color: darkslategray;
+    grid-column: 1 /span 9;
+    text-align: center;
+    color: white;
+}
+
+section.box.box-22 {
+    height: 200px;
+    grid-column: 1 /span 9;
+}
+
+section.box.box-23 {
+    height: 80px;
+    background-color: darkslategray;
+    grid-column: 1 /span 9;
+    text-align: center;
+    color: white;
+}
+
+section.box.box-24 {
+    height: 200px;
+    grid-column: 1 /span 4;
+    margin-left: 100px;
+    font-size:small;
+    margin-top:50px;
+}
+.box-24 div{
+    margin-bottom: 8px;
+}
+
+section.box.box-25 {
+    height: 300px;
+    grid-column: 5 /span 5;
+    margin-top: 20px;
+}
+
+section.box.box-26 {
+    height: 100px;
+    background-color: darkslategray;
+    grid-column: 1 /span 9;
+    text-align: center;
+    color: white;
+    margin: 2px;
+}
+
+.box-26 a {
+    font-size: xx-large;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1px;
+    margin-top: 20px;
+}
+
+.box-26 p{
+    margin: 2px;
+}
+
+.box-23 h2 {
+    margin: 2px;
+    margin-top: 18px;
+}
+
+.box-23 p {
+    margin: 1px;
+}
+
+.box-11 h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.box-11 p {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+
+.box-4 h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.box-4 p {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+
+
+.box-2 section.jumbotron h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 2px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.box-2 section.jumbotron p {
+    text-align: center;
+    color: white;
+    margin: 0px;
+    text-shadow: 1px 1px black;
+}
+
+#mountianvilla {
+    height: 250px;
+    width: auto;
+    margin-top: 25px;
+}
+
+#loc2pic {
+    height: 250px;
+    width: auto;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#loc3pic {
+    height: 250px;
+    width: auto;
+    margin-top: 25px;
+}
+
+.locationheader {
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.locationtext {
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 2px;
+    font-size: smaller;
+}
+
+button {
+    background-color: dimgray;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px 50px;
+    cursor: pointer;
+}
+
+.jumbolable {
+    background-color: black;
+    opacity: .9;
+    margin: 110px;
+}
+
+    .jumbolable p {
+        color: white;
+        font-size: large;
+        text-align: center;
+        margin: 1px;
+    }
+
+.box-21 h2 {
+    margin: 2px;
+    margin-top: 18px;
+}
+
+.box-21 p {
+    margin: 1px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.carousel-wrapper {
+    height: 150px;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    text-align:center;
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background: url("http://dancort.es/assets/img/css-carousel/carousel-arrow-dark.png") 50% 50% / 20px no-repeat;
+}
+
+.arrow-prev {
+    left: 0;
+}
+
+.arrow-next {
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.light {
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+    }
+}
+
+}
+
+/*Select every element*/
+[id^="item"] {
+    display: none;
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+   background-color:bisque;
+    background-size: cover;
+}
+
+.item-2 {
+    background-color: bisque;
+    background-size: cover;
+}
+
+.item-3 {
+    background-color: bisque;
+    background-size: cover;
+}
+
+*:target ~ .item-1 {
+    opacity: 0;
+}
+
+#item-1:target ~ .item-1 {
+    opacity: 1;
+}
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+}
+}
