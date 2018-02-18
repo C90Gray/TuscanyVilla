@@ -10,37 +10,36 @@ nav ul {
     margin-bottom: 20px;
 }
 
-    nav ul li {
-        display: inline;
-        margin-left: 30px;
-    }
+nav ul li {
+    display: inline;
+    margin-left: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
 
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
+nav ul li a:hover {
+     color: darkgray;
 
-            nav ul li a:hover {
-                color: darkgray;
-            }
+}
 
 #logo {
-    color:white;
-  text-align:center;
-   
+    color: white;
+    text-align: center;
 }
 
-section.box.box-1a{
-    background-color:darkslategray;
+section.box.box-1a {
+    background-color: darkslategray;
     height: 40px;
-    grid-column:1;
+    grid-column: 1;
 }
 
-.box-1a p{
-    color:white;
-    text-align:center;
-    font-size:large;
-    margin:9px;
+.box-1a p {
+    color: white;
+    text-align: center;
+    font-size: large;
+    margin: 9px;
 }
 
 section.box.box-1 {
@@ -52,7 +51,7 @@ section.box.box-1 {
 section.box.box-2 {
     height: 250px;
     background-image: url('images/tuscany-villas-sant-anna.jpg');
-    background-size: 1000px 250px;
+    background-size: 1010px 250px;
     grid-column: 1 /span 7;
 }
 
@@ -147,7 +146,7 @@ section.box.box-16 {
     grid-column: 4 /span 3;
     height: 250px;
     background-image: url('images/villa1.jpg');
-    background-size: 400px 250px;
+    background-size: 430px 250px;
 }
 
 section.box.box-17 {
@@ -210,11 +209,13 @@ section.box.box-24 {
     height: 200px;
     grid-column: 1 /span 4;
     margin-left: 100px;
-    font-size:small;
-    margin-top:50px;
+    font-size: small;
+    margin-top: 40px;
 }
-.box-24 div{
+
+.box-24 div {
     margin-bottom: 8px;
+    
 }
 
 section.box.box-25 {
@@ -240,7 +241,7 @@ section.box.box-26 {
     margin-top: 20px;
 }
 
-.box-26 p{
+.box-26 p {
     margin: 2px;
 }
 
@@ -339,15 +340,15 @@ button {
 
 .jumbolable {
     background-color: black;
-    opacity: .9;
-    margin: 110px;
+    opacity: .8;
+    margin: 120px;
 }
 
     .jumbolable p {
         color: white;
         font-size: large;
         text-align: center;
-        margin: 1px;
+        margin: 0px;
     }
 
 .box-21 h2 {
@@ -389,6 +390,7 @@ div {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
 .carousel-wrapper {
     height: 150px;
     position: relative;
@@ -405,7 +407,7 @@ div {
     padding: 25px 50px;
     opacity: 0;
     transition: all 0.5s ease-in-out;
-    text-align:center;
+    text-align: center;
 }
 
 .arrow {
@@ -449,7 +451,7 @@ div {
 .item-1 {
     z-index: 2;
     opacity: 1;
-   background-color:bisque;
+    background-color: bisque;
     background-size: cover;
 }
 
@@ -474,5 +476,4 @@ div {
 #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
     z-index: 3;
     opacity: 1;
-}
 }
